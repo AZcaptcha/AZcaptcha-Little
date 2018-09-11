@@ -12,8 +12,8 @@ import (
 )
 
 const (
-	inputUrl    = "http://2captcha.com/in.php"
-	responseUrl = "http://2captcha.com/res.php"
+	inputUrl    = "http://azcaptcha.com/in.php"
+	responseUrl = "http://azcaptcha.com/res.php"
 	OK          = "OK"
 	notReady    = "CAPCHA_NOT_READY"
 )
