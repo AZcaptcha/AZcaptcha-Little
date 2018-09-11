@@ -1,4 +1,4 @@
-# 2captcha
+# [AZcaptcha.com] API
 Little wrapper for AZcaptcha.com API
 
 [![Build Status](https://travis-ci.org/AZcaptcha/AZcaptcha.com.svg?branch=master)](https://travis-ci.org/Thomanphan/AZcaptcha.com)
