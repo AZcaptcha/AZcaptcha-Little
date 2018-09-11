@@ -1,8 +1,8 @@
 package captcha_test
 
 import (
-	"github.com/LeoCBS/2captcha/captcha"
-	"github.com/LeoCBS/2captcha/captcha/httpmock"
+	"github.com/Thomanphan/AZcaptcha.com/captcha"
+	"github.com/Thomanphan/AZcaptcha.com/captcha/httpmock"
 	"net/http"
 	"strconv"
 	"testing"
@@ -31,7 +31,7 @@ func TestShouldValidateEmptyBase64(t *testing.T) {
 
 func TestShouldUploadBase64Image(t *testing.T) {
 	setUp()
-	httpmock.DefaultTransport.RegisterResponder("POST", "http://2captcha.com/in.php",
+	httpmock.DefaultTransport.RegisterResponder("POST", "http://az.com/in.php",
 		func(req *http.Request) (*http.Response, error) {
 			return &http.Response{
 				Status:     strconv.Itoa(200),
@@ -78,7 +78,7 @@ func TestShouldValidatePollingTimePollingResponse(t *testing.T) {
 
 func TestShouldPollingCaptchaResponse(t *testing.T) {
 	setUp()
-	httpmock.DefaultTransport.RegisterResponder("GET", "http://2captcha.com/res.php",
+	httpmock.DefaultTransport.RegisterResponder("GET", "http://azcaptcha.com/res.php",
 		func(req *http.Request) (*http.Response, error) {
 			return &http.Response{
 				Status:     strconv.Itoa(200),
