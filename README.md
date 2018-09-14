@@ -1,11 +1,11 @@
 # [AZcaptcha.com] API
 Little wrapper for AZcaptcha.com API
 
-[![Build Status](https://travis-ci.org/AZcaptcha/AZcaptcha.com.svg?branch=master)](https://travis-ci.org/Thomanphan/AZcaptcha.com)
+[![Build Status](https://travis-ci.org/AZcaptcha/AZcaptcha.com.svg?branch=master)](https://travis-ci.org/AZcaptcha/AZcaptcha.com)
 
 ## Go get
 
-    go get github.com/Thomanphan/AZcaptcha.com
+    go get github.com/AZcaptcha/AZcaptcha.com
 
 
 ## Upload image base64
